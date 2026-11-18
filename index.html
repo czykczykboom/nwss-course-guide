@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NWSS Course Guide 2027–2028 · New Westminster Secondary School</title>
+<meta name="description" content="Search and plan courses at New Westminster Secondary School. Browse every course in the 2027–2028 Course Description Booklet, check graduation requirements, and build your plan for MyEd.">
+<link rel="icon" href="https://newwestschools.ca/nwss/wp-content/uploads/sites/7/2024/10/cropped-sd40_favicon_512-270x270.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="sr-only" href="#main">Skip to content</a>
+
+<div class="utility">
+  <div class="wrap">
+    <span class="review">Prototype · For review</span>
+    <a href="https://myeducation.gov.bc.ca/aspen/logon.do" target="_blank" rel="noopener">MyEd Family Portal</a>
+    <a href="https://newwestschools.ca/nwss/students/course-selection/" target="_blank" rel="noopener">Course Selection page</a>
+    <a class="keep" href="https://newwestschools.ca/nwss/" target="_blank" rel="noopener">NWSS website ↗</a>
+  </div>
+</div>
+
+<header class="site">
+  <div class="wrap">
+    <a class="brandmark" href="#/explore" id="brandmark">
+      <img src="https://newwestschools.ca/nwss/wp-content/uploads/sites/7/2026/01/logo_school_nwss_IBws_2.png" alt="New Westminster Secondary School" onerror="this.parentNode.classList.add('noimg')">
+      <span class="wordmark"><b>NWSS</b><span>New Westminster Secondary</span></span>
+      <span class="divider" aria-hidden="true"></span>
+      <span class="appname">Course Guide<small>2027–2028</small></span>
+    </a>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="tabs">Menu</button>
+    <nav class="tabs" id="tabs" aria-label="Main">
+      <a href="#/explore" data-view="explore">Explore Courses</a>
+      <a href="#/plan" data-view="plan">My Plan <span class="badge" id="planCount">0</span></a>
+      <a href="#/grad" data-view="grad">Graduation</a>
+      <a href="#/programs" data-view="programs">Programs</a>
+      <a href="#/help" data-view="help">Get Started</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" tabindex="-1"></main>
+
+<footer class="site">
+  <div class="wrap">
+    <div>
+      <strong>New Westminster Secondary School</strong><br>
+      820 Sixth Street, New Westminster BC V3M 3S9 · 604.517.6220
+    </div>
+    <div style="max-width:520px">
+      Course information comes from the NWSS Course Description Booklet 2027–2028. Course offerings depend on enrolment and may change. Confirm your choices with your counsellor.
+    </div>
+  </div>
+</footer>
+
+<div class="scrim" id="scrim"></div>
+<aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-labelledby="dTitle" aria-hidden="true"></aside>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
